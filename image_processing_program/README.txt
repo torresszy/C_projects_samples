@@ -1,18 +1,13 @@
-CS 152, Winter 2021
-README file for PA #2: Image Processing
+README file for: Image Processing
+
+Note: src directory is not included due to privacy reason
 
 Makefile: file to be used with make.  Run:
   make test_images - to compile your code and generate an executable for the automated test code
   make student_test_images - to compile your code and generate an executable for your tests
   make all - to do both
   make clean - remove generated files
-  make gen_score - generate your score on the automated tests.
-
-src: a subdirectory for the C source files
-  images.c - the C file for this programming assignment.  You will do most of your work in this file.
-  student_test_images.c - a C file that you can use to test your code by hand.  Add calls
-    to your functions to the main function.  Add test helper functions as needed.
-  util.c - a C file that contains utility code for reading and writing PPM files.
+  make gen_score - generate your score on the automated tests
 
 include: a directory for the C header files
   images.h - the include file for image processing code
